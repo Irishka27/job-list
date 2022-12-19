@@ -4,7 +4,7 @@ export default function Job({ job, iconLocation, iconBook, date, detailed }) {
   return (
     <div className={s.wrapper} key={job.id}>
       <div className={s.photo}>
-        <img className={s.photos} src={job.pictures[2]} alt="sudenly-photo" />
+        <img className={s.photos} src={job.pictures[2]} alt="sudenly" />
       </div>
       <div className={s.content}>
         {/* <a className={s.link} onClick={detailed}> */}
